@@ -29,8 +29,26 @@
       
       </center>
       </body>
+      
 
- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>看看我拍的照片吧.</p>
+
+<button id="hide">看看</button>
+<button id="show">不看了</button>
       
       
       
